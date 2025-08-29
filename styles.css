@@ -1,0 +1,149 @@
+/* Reset and Base Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #007acc;
+    color: white;
+    padding: 3rem;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.hero button {
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Box Model Demo */
+.box-demo {
+    background-color: white;
+    padding: 2rem;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.box-demo h2 {
+    margin-bottom: 2rem;
+}
+
+.box-content, .box-padding, .box-border, .box-margin {
+    margin: 1rem auto;
+    width: 300px;
+    text-align: center;
+}
+
+.box-content {
+    background-color: #cce5ff;
+    padding: 1rem;
+    border: 2px solid #004085;
+}
+
+.box-padding {
+    background-color: #d4edda;
+    padding: 2rem;
+    border: 2px solid #155724;
+}
+
+.box-border {
+    background-color: #fff3cd;
+    padding: 1rem;
+    border: 4px solid #856404;
+}
+
+.box-margin {
+    background-color: #f8d7da;
+    padding: 1rem;
+    border: 2px solid #721c24;
+    margin: 2rem auto;
+}
+
+/* Contact Section */
+.contact {
+    background-color: white;
+    padding: 2rem;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.contact form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact button {
+    background-color: #007acc;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
